@@ -3,7 +3,8 @@
     "description": "Hide original field name from end user.",
     "keywords": [
         "codemen",
-        "fakefield"
+        "fakefield",
+        "laravel package"
     ],
     "homepage": "https://github.com/codemenorg/fakefield",
     "license": "MIT",
