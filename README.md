@@ -1,9 +1,9 @@
 # Laravel Fake Field 
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/codemen/test.svg?style=flat-square)](https://packagist.org/packages/codemen/test)
-[![Build Status](https://img.shields.io/travis/codemen/test/master.svg?style=flat-square)](https://travis-ci.org/codemen/test)
-[![Quality Score](https://img.shields.io/scrutinizer/g/codemen/test.svg?style=flat-square)](https://scrutinizer-ci.com/g/codemen/test)
-[![Total Downloads](https://img.shields.io/packagist/dt/codemen/test.svg?style=flat-square)](https://packagist.org/packages/codemen/test)
+[![Latest Stable Version](https://poser.pugx.org/codemenorg/fakefield/v/stable)](https://packagist.org/packages/codemenorg/fakefield)
+[![Latest Unstable Version](https://poser.pugx.org/codemenorg/fakefield/v/unstable)](https://packagist.org/packages/codemenorg/fakefield)
+[![License](https://poser.pugx.org/codemenorg/fakefield/license)](https://packagist.org/packages/codemenorg/fakefield)
+[![Total Downloads](https://poser.pugx.org/codemenorg/fakefield/downloads)](https://packagist.org/packages/codemenorg/fakefield)
 
 Hide original field name from end user. It will generate new field name(fake field) every time while you refresh your page. 
 
