@@ -1,0 +1,56 @@
+{
+    "name": "codemenorg/fakefield",
+    "description": "Hide original field name from end user.",
+    "keywords": [
+        "codemen",
+        "fakefield"
+    ],
+    "homepage": "https://github.com/codemenorg/fakefield",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Codemen",
+            "email": "codemenorg@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "illuminate/support": "5.8.*"
+    },
+    "require-dev": {
+        "orchestra/testbench": "3.8.*",
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Codemen\\FakeField\\": "src"
+        },
+        "files": [
+            "helpers/helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Codemen\\FakeField\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Codemen\\FakeField\\FakeFieldServiceProvider"
+            ],
+            "aliases": {
+                "FakeField": "Codemen\\FakeField\\FakeFieldFacade"
+            }
+        }
+    }
+}
