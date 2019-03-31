@@ -16,7 +16,7 @@ composer require codemenorg/fakefield
 ```
 
 ## Usage
-After installing the package run the following commend to generate `fakefield.php` config file. Here you have to define fake field prefix and Eloquent Model path.  
+After installing the package, run the following command to generate `fakefield.php` config file. Here you have to define fake field prefix and Eloquent Model path.  
 ```
 php artisan vendor:publish --provider=Codemen\FakeField\FakeFieldServiceProvider
 ```
