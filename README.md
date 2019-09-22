@@ -15,6 +15,8 @@ You can install the package via composer:
 composer require codemenorg/fakefield
 ```
 
+For Laravel 5.8 use `composer require codemenorg/fakefield:1.0.0`
+
 ## Usage
 After installing the package, run the following command to generate `fakefield.php` config file. Here you have to define fake field prefix and Eloquent Model path.  
 ```
