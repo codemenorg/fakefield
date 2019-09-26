@@ -5,5 +5,5 @@ return [
 
 
     // Defile model path
-    'model_path' => 'app/Models',
+    'model_path' => 'app',
 ];
