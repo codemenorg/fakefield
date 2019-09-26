@@ -16,7 +16,7 @@ class FakeFieldServiceProvider extends ServiceProvider
         if ($this->app->runningInConsole()) {
             $this->publishes([
                 __DIR__ . '/../config/config.php' => config_path('fakefield.php'),
-            ], 'config');
+            ], 'fake-field-config');
         }
 
         Blade::directive('fakeKey', function () {
