@@ -51,7 +51,9 @@ class Main
         $modelPath = config('fakefield.model_path');
         $path = base_path($modelPath);
         foreach (glob($path . '/*') as $file) {
-            if (is_dir($file)) {
+            if (strtolower($modelPath) == 'app' && is_dir($file)) {
+                continue;
+            } else if (is_dir($file)) {
                 $dir = $file;
                 foreach (glob($dir . '/*.php') as $file) {
                     $className = str_replace('/', '\\', Str::studly($modelPath)) . '\\' . basename($dir) . '\\' . basename($file, '.php');
