@@ -132,7 +132,7 @@ class Main
 
     public function getBaseKey()
     {
-        return $this->encrypt(config('fakefield._fake_key'));
+        return $this->encrypt(config('fakefield._base_key'));
     }
 
     private function encrypt($value)
